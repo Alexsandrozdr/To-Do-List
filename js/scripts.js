@@ -36,7 +36,7 @@ const saveTodo = (text) => {
   todoInput.value = "";
   todoInput.focus();
 };
-
+// escondendo campos
 const toggleForms = () => {
   editForm.classList.toggle("hide");
   todoForm.classList.toggle("hide");
